@@ -1,0 +1,151 @@
+/*
+Theme name: Test Theme
+Author: grazki
+
+*/
+
+html, body{
+
+margin: 0 ;
+
+padding: 0;
+box-sizing: border-box;
+height: 100%;
+
+
+
+}
+
+header {
+
+	/* background: #fff;
+	width: 100%;
+	height: 100px; */
+
+
+}
+
+/*this is used to keep footer DOWN*/
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.navigation{
+
+	margin-bottom: 0px !important;
+
+
+	height: 50px;
+	width: 100%;
+	background: green;
+	background: #f57e18;
+
+	display: flex;
+	justify-content: flex-end;
+
+    align-items: center;
+   
+    
+}
+
+.remove_padding{
+
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+
+.navigation ul{
+
+	
+
+
+
+}
+
+.navigation li{
+
+	display: flex;
+	margin-right: 50px;
+
+
+}
+
+.navigation a{
+
+color: #000;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+
+
+.cover_image{
+
+
+	height: 100vh;
+/* position: absolute;
+top: 50px; */
+/* background-image:url(http://arancini1.com/wp-content/uploads/2020/10/background-home-large-screen-1.svg); */
+background-image:url(http://arancini1.com/wp-content/uploads/2020/10/blue_orange_arancini.png);
+
+
+	background-repeat: no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	background-size: cover;
+
+}
+
+
+.front-page{
+
+width: 100%;
+
+}
+
+
+section.fp-1{
+
+	height: 40%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	/* background: red; */
+
+	 padding-bottom: 10rem; /*This is used to stick footer down and it needs to corespond to footer height, if changed, change footer height also*/
+
+
+}
+
+
+/*blog posts page*/
+
+.top-margin{
+
+	margin-top: 80px;
+
+}
+
+
+
+
+footer {
+/*  height: 50px;
+  margin-top: -50px; */
+
+/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+
+/* https://stackoverflow.com/questions/12361029/how-can-i-get-a-sticky-footer-on-my-wordpress-theme */
+
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 10rem;            /* Footer height */
+background: #f57e18;
+
+
+}
+
